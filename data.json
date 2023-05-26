@@ -1,0 +1,41 @@
+[
+    {
+        "firstName": "Archit",
+        "middleName": "",
+        "lastName": "Bansal",
+        "email": "archit.bansal@sourcefuse.com",
+        "phoneNumber": "98885XXXXX",
+        "role": "Intern",
+        "address": "Panchkula"
+    },
+
+    {
+        "firstName": "Hitesh",
+        "middleName": "",
+        "lastName": "Gupta",
+        "email": "hitesh.gupta@sourcefuse.com",
+        "phoneNumber": "85590XXXXX",
+        "role": "Senior Software Engineer",
+        "address": "Chandigarh"
+    },
+
+    {
+        "firstName": "Samarpan",
+        "middleName": "",
+        "lastName": "Bhattacharya",
+        "email": "samarpan.bhattacharya@sourcefuse.com",
+        "phoneNumber": "99999XXXXX",
+        "role": "Principal Architect",
+        "address": "Noida"
+    },
+
+    {
+        "firstName": "Kabir",
+        "middleName": "Singh",
+        "lastName": "Chandhoke",
+        "email": "kabir.chandhoke@sourcefuse.com",
+        "phoneNumber": "98140XXXXX",
+        "role": "COO",
+        "address": "Mohali"
+    }
+]
