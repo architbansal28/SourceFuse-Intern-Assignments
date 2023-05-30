@@ -2,10 +2,10 @@
 <html lang="en">
 <head>
 	<meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<!-- Bootstrap CSS -->
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
 	<title>User Data</title>
 </head>
@@ -14,32 +14,20 @@
 	<br/>
 	<!-- Button for loading data -->
 	<div class="text-center">
-		<button class="btn btn-primary" id="btn" onclick="getData()">Load Data</button>
+		<button class="btn btn-primary" id="loadDataBtn">Load Data</button>
 	</div>
 	<br/>
 
 	<!-- Main table which contains all data -->
 	<div class="container">
-		<table class="table" id="table">
-			<thead>
-				<tr>
-					<th>First Name</th>
-					<th>Middle Name</th>
-					<th>Last Name</th>
-					<th>Email</th>
-					<th>Phone Number</th>
-					<th>Role</th>
-					<th>Address</th>
-					<th></th>
-					<th></th>
-				</tr>
-			</thead>
-			<tbody></tbody>
+		<table class="table" id="dataTable">
+			<thead id="dataTableHead"></thead>
+			<tbody id="dataTableBody"></tbody>
 		</table>
 	</div>
 
-	<script src="data.json"></script>
-    <script src="script.js"></script>
+	<!-- <script src="data.json"></script> -->
+    <script type="module" src="main.js"></script>
 
 	<!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
