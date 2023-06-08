@@ -1,0 +1,24 @@
+{
+    "name": "ass2-typescript",
+    "version": "1.0.0",
+    "description": "Sample project",
+    "main": "app.js",
+    "scripts": {
+        "start": "lite-server",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": ["sample", "project", "typescript"],
+    "author": "Archit Bansal",
+    "dependencies": {
+        "express": "^4.17.1",
+        "lodash": "^4.17.21"
+    },
+    "devDependencies": {
+        "lite-server": "^2.5.4"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/architbansal28/SourceFuse-Intern-Assignments.git"
+    }
+}
+  
