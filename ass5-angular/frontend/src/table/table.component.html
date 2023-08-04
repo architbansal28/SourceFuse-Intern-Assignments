@@ -1,0 +1,39 @@
+<br />
+
+<div class="container">
+    <table class="table" id="dataTable">
+        <thead>
+        <tr>
+            <th *ngFor="let header of fieldNames">{{ formatHeader(header) }}</th>
+            <th></th>
+            <th></th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr *ngFor="let user of data" [class.lightblue-bg]="editMode[user.id]">
+            <ng-container *ngIf="!editMode[user.id]; else editModeTemplate">
+            <td *ngFor="let fieldName of fieldNames">
+                {{ user[fieldName] || '' }}
+            </td>
+            <td>
+                <button class="btn btn-secondary" (click)="toggleEditMode(user.id)">Edit</button>
+            </td>
+            </ng-container>
+        
+            <ng-template #editModeTemplate>
+            <td *ngFor="let fieldName of fieldNames" [attr.contentEditable]="true">
+                <input class="form-control" [(ngModel)]="user[fieldName]">
+            </td>
+            <td>
+                <button class="btn btn-secondary" (click)="saveRow(user)">Save</button>
+                <button class="btn btn-secondary" (click)="cancelEdit(user)">Cancel</button>
+            </td>
+            </ng-template>
+            <td>
+            <button class="btn btn-secondary" (click)="deleteRow(user)">Delete</button>
+            </td>
+        </tr>
+        </tbody>
+    </table>
+</div>
+  

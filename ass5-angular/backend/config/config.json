@@ -1,0 +1,23 @@
+{
+    "development": {
+      "username": "architbansal",
+      "password": null,
+      "database": "sourcefuse",
+      "host": "localhost",
+      "dialect": "postgres"
+    },
+    "test": {
+      "username": "architbansal",
+      "password": null,
+      "database": "sourcefuse",
+      "host": "localhost",
+      "dialect": "postgres"
+    },
+    "production": {
+      "username": "architbansal",
+      "password": null,
+      "database": "sourcefuse",
+      "host": "localhost",
+      "dialect": "postgres"
+    }
+}
