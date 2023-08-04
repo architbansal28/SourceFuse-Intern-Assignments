@@ -1,0 +1,33 @@
+{
+    "name": "ass4-frontend",
+    "version": "1.0.0",
+    "description": "Sample project",
+    "main": "app.js",
+    "scripts": {
+        "start": "lite-server",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/architbansal28/SourceFuse-Intern-Assignments.git"
+    },
+    "keywords": [
+        "DBMS",
+        "ORM",
+        "sequelize"
+    ],
+    "author": "Archit Bansal",
+    "license": "ISC",
+    "dependencies": {
+        "express": "^4.17.1",
+        "lodash": "^4.17.21"
+    },
+    "devDependencies": {
+        "lite-server": "^2.5.4",
+        "ts-loader": "^9.4.3",
+        "typescript": "^5.1.3",
+        "webpack": "^5.87.0",
+        "webpack-cli": "^5.1.4",
+        "webpack-dev-server": "^4.15.1"
+    }
+}
